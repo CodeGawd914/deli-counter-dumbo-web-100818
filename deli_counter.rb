@@ -16,3 +16,7 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{spot+1} in line."
   return name, spot
 end
+
+def now_serving(katz_deli)
+  if katz_deli.length == 0
+    "There is nobody waiting to be served!"
