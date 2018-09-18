@@ -3,12 +3,11 @@ def line(katz_deli)
   puts  "The line is currently empty."
   elsif katz_deli.length >= 1
   lineTotal = []
-  i = 1
-  sentence = "The line is currently"
+  i = 1 
   katz_deli.each do |name|
     lineTotal.push ("#{i}. #{name}")
   end
-  return sentence lineTotal
+  return "The line is currently" lineTotal
   else
     return katz_deli
   end
