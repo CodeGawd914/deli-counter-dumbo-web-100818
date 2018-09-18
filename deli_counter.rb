@@ -5,7 +5,7 @@ def line(katz_deli)
   lineTotal = []
   i = 1 
   katz_deli.each do |name|
-    lineTotal.push ("#{i}. #{name}")
+    lineTotal.push("#{i}. #{name}")
   end
   return "The line is currently" lineTotal
   else
