@@ -4,5 +4,5 @@ def line(katz_deli)
   else
     sentence = "The line is currently:"
     katz_deli.each_with_index do |name, index|
-      
+    sentence += "#{index_to"
 end
